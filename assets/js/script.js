@@ -33,4 +33,9 @@ const age = prompt("Inserisci la tua età:");
 
 const color = prompt("Inserisci il tuo colore preferito:");
 
-console.log("Nome:", name, "Cognome:", surname, "Colore preferito:", color);
+const nameNoSpaces = name.replaceAll(/\s/g,'');
+
+const surnameNoSpaces = surname.replaceAll(/\s/g,'');
+
+const colorNoSpaces = color.replaceAll(/\s/g,'');
+
