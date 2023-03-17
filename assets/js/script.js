@@ -39,3 +39,10 @@ const surnameNoSpaces = surname.replaceAll(/\s/g,'');
 
 const colorNoSpaces = color.replaceAll(/\s/g,'');
 
+const output = document.getElementById("mainContent");
+
+output.innerHTML = `
+  <h1>Ciao ${name} ${surname}, hai ${age} anni ed il tuo colore preferito è il ${color}.</h1>
+
+  <h2 class="py-3">La tua password generata è: ${nameNoSpaces}${surnameNoSpaces}${colorNoSpaces}${age}</h2>
+`
