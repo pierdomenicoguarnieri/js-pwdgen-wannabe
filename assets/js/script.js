@@ -29,6 +29,8 @@ const name = prompt("Inserisci il tuo nome:");
 
 const surname = prompt("Inserisci il tuo cognome:");
 
+const age = prompt("Inserisci la tua età:");
+
 const color = prompt("Inserisci il tuo colore preferito:");
 
 console.log("Nome:", name, "Cognome:", surname, "Colore preferito:", color);
